@@ -25,7 +25,9 @@ O Selection Sort é um dos algoritmos de implementação simples existentes em l
 
 Em termos de número de comparações ( <i>C(n)</i> ) e número de movimentos ( <i>M(n)</i> ), temos que o Selection Sort apresenta custo de O(n2) comparações e O(3n) movimentações, aproximadamente. De acordo com Knuth (1973, exercícios 5.2.3), o comando de atribuição dmin = j é executado aproximadamente n<i>log</i>n vezes, independente do modelo de entrada utilizado. Sendo assim, é possível afirmar que temos um algoritmo cujo tempo é linear e sem modificação atrelada à apresentação dos dados. Tem-se como vantagens de desvantagens em sua utilização:
 
-- <b>Vantagens</b>: (1) Apresenta custo linear, ou seja, não sofre modificação de tempo quanto a ordem inicial dos dados utilizados como entrada; (2) É um bom algoritmo para conjuntos de dados que apresentam registros muito grandes, ou seja, entradas com múltiplas colunas e; (3) é muito interessante quando a quantidade de registros de entrada é pequeno.
+> <b>Vantagens</b>: 
+>
+>(1) Apresenta custo linear, ou seja, não sofre modificação de tempo quanto a ordem inicial dos dados utilizados como entrada; (2) É um bom algoritmo para conjuntos de dados que apresentam registros muito grandes, ou seja, entradas com múltiplas colunas e; (3) é muito interessante quando a quantidade de registros de entrada é pequeno.
 
 - <b>Desvantagens</b>: (1) O fato da entradas estar parcialmente ou totalmente ordenada não contribui com o custo, logo, se paga O(n2) para qualquer situação de execução; (2) o algoritmo não é estável, uma vez que, verifica todos os elementos mesmo os maiores que o avaliado.
 
