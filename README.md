@@ -18,7 +18,7 @@ O Selection Sort é um dos algoritmos de implementação simples existentes em l
 </p>
 
 <p align="center">
-	<img src="imgs/bubble.png"/> 
+	<img src="imgs/selection.png"/> 
 </p>
 
 <p align="justify">
