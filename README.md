@@ -35,7 +35,7 @@ Em termos de número de comparações ( <i>C(n)</i> ) e número de movimentos ( 
 
 # Compilação e Execução
 
-A lista dinâmica disponibilizada possui um arquivo Makefile que realiza todo o procedimento de compilação e execução. Para tanto, temos as seguintes diretrizes de execução:
+O método Selection Sort disponibilizado possui um arquivo Makefile que realiza todo o procedimento de compilação e execução. Para tanto, temos as seguintes diretrizes de execução:
 
 
 | Comando                |  Função                                                                                           |                     
