@@ -20,6 +20,7 @@ struct Vector{
 void Initialize(Vector *v);
 void Imprime(Vector *v);
 void Swap(int *a, int *b);
+
 void SelectionSort(Vector *v);
 
 #endif

@@ -26,15 +26,15 @@ void Imprime(Vector *v){
 
 
 void SelectionSort(Vector *v){
-	int idx;
+	int min;
 	for(int i=0; i<MAXSIZE-1; i++){
 		
-		idx = i;	
+		min = i;	
 		for(int j=i+1; j<MAXSIZE; j++)
-			if(v->itens[idx] > v->itens[j])
-				idx=j;
+			if(v->itens[min] > v->itens[j])
+				min=j;
 		
-		Swap(&v->itens[idx], &v->itens[i]);
+		Swap(&v->itens[min], &v->itens[i]);
 		v->swap ++;
 		
 		Imprime(v);
